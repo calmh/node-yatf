@@ -2,7 +2,7 @@
   "author": "Jakob Borg <jakob@nym.se> (http://nym.se/)",
   "name": "yatf",
   "description": "Yet another ASCII table formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/yatf.js",
   "homepage": "https://github.com/calmh/node-yatf",
   "repository": {
