@@ -13,15 +13,18 @@ Example
 
     var table = require('yatf');
     
-    var headers = [ 'FOO', 'BAR', 'SOMETHING LONGER'];
+    var headers = [ 'NAME', 'PROPERTY', 'VALUE', 'SOURCE' ];
     
     var data = [
-        [ 'foo1'.bold.blue, 'bar1', 'A comment of some length' ],
-        [ 'foo2'.bold.blue, 'test', 'Another comment'.magenta ],
-        [ 'foo3'.bold.blue, 'a longer bold value'.bold, 'The last row in this table' ],
+    [ 'zones'.bold, 'compressratio', '1.06x', '-' ],
+    [ 'zones/01b2c898-945f-11e1-a523-af1afbe22822'.blue.bold, 'compressratio', '1.93x'.magenta, '-' ],
+    // ...
+    [ 'zones/b2535e73-0892-4183-9e02-0255c6dde661/data'.magenta.bold, 'compressratio', '1.34x'.magenta, '-' ],
     ];
     
     table(headers, data, { underlineHeaders: true });
+
+[![](https://github.com/calmh/node-yatf/raw/master/screenshot.png)]
 
 License
 -------
