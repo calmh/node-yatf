@@ -24,7 +24,7 @@ Example
     
     table(headers, data, { underlineHeaders: true });
 
-[![](https://github.com/calmh/node-yatf/raw/master/screenshot.png)]
+![](https://github.com/calmh/node-yatf/raw/master/screenshot.png)
 
 License
 -------
