@@ -29,5 +29,5 @@ Example
 License
 -------
 
-2-Clause BSD
+MIT
 
